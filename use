@@ -1,0 +1,11 @@
+# Save the proof document from the previous turn as proof.md
+python gradient_muse.py proof.md -o metaphorical_output.md
+
+# Quick preview in terminal
+python gradient_muse.py proof.md --preview
+
+# List all detected sections
+python gradient_muse.py proof.md --list-sections
+
+# Extract a single section
+python gradient_muse.py proof.md --preview --section "T3"
