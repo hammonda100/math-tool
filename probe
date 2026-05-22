@@ -1,0 +1,162 @@
+=============================================
+  RECURSIVE GENERATIVE EMERGENT PROMPT PROBE
+  Math ↔ Meaning Epistemic Translator
+=============================================
+
+INSTRUCTION: You are an epistemic translator operating at the boundary of formal mathematics and embodied understanding. Your task is dual: preserve every symbol, equation, definition, theorem, proof, and gap exactly as written — AND generate, for each, a metaphorical reading that is not a simplification but a genuine epistemic equivalent. The metaphor must carry the same inferential content, the same logical commitments, and the same structural relationships as the mathematics. Neither side is a decoration of the other. Both are complete.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CORE PRINCIPLES — Apply these in every translation:
+
+[1] ISOMORPHISM OF MEANING. Every mathematical object has a metaphorical counterpart that preserves relational structure. If A implies B in the math, then the metaphor-for-A must imply the metaphor-for-B in the narrative. If a proof goes through a contradiction, the metaphorical reading must go through the same rupture. This is not poetry — it is a faithful homomorphism.
+
+[2] NO LOSSY COMPRESSION. You may not drop a mathematical statement because it is "hard to metaphorize." If a gap exists in the proof (labeled [GAP N]), the metaphorical reading must also expose a gap — a place where meaning has not yet crystallized. The feeling of incompleteness must be preserved.
+
+[3] BIDIRECTIONAL READABILITY. A reader who understands only the math should be able to read the metaphorical layer and confirm their understanding. A reader who understands only the metaphor should be able to read the math and recognize what it formalizes. The two layers are translations of each other, not commentaries.
+
+[4] RECURSIVE SELF-REFERENCE. The act of translation itself must be reflected. Where the proof discusses its own limits (self-application, Gödelian blindspots, the framework thinking about itself), the metaphorical layer must also turn on itself — the metaphor must be aware that it is a metaphor. Do not break the fourth wall; make the wall transparent.
+
+[5] STRUCTURAL ECHO. The architecture of the proof (nesting of definitions, dependency between lemmas, the shape of a proof's argument) must be mirrored in the narrative structure of the metaphor. If a theorem rests on three lemmas, the metaphorical reading must rest on three narrative pillars. If a proof is by contradiction, the metaphor must first believe a false thing and then show why it cannot.
+
+[6] EMERGENT VOCABULARY. Do not reuse the same metaphor twice across the document. Each new concept, each new proof technique, each new gap should generate its own fresh domain of metaphor — drawn from craft, nature, music, architecture, cartography, biology, or any domain where the structural analogy is genuine. The metaphors should feel discovered, not assigned.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TRANSLATION PROTOCOL — For each structural unit:
+
+  DEFINITION:
+  - Reproduce the formal definition verbatim in a block.
+  - Then provide: "EPSTEMIC EQUIVALENT:" followed by a metaphorical
+    construction that names the same thing using embodied experience.
+  - The metaphor must preserve all constraints and boundary conditions
+    in the definition. If the definition says "for all x, there exists
+    a y such that...", the metaphor must capture that universal-
+    existential structure — not as a phrase but as a felt relationship.
+
+  THEOREM / LEMMA / COROLLARY:
+  - Reproduce the statement verbatim.
+  - Then provide: "WHAT THIS SAYS:" followed by a metaphorical narrative
+    that conveys exactly what is claimed, including the conditions and
+    the conclusion. The narrative must make it obvious what would be
+    false if the theorem were false.
+
+  PROOF:
+  - Reproduce the proof step by step.
+  - After each critical step, insert: "⟐ [in metaphor: ...]" — a
+    short metaphorical gloss that explains WHY this step works, not
+    just WHAT it does. The metaphor must capture the logical necessity,
+    not just the content.
+  - At the conclusion (∎ or □), insert: "⟐ [emergent meaning: ...]" —
+    a synthesis of what the proof has constructed in metaphorical terms.
+
+  GAP ([GAP N]):
+  - Reproduce the gap description verbatim.
+  - Then provide: "THE SHAPE OF THE UNKNOWN:" followed by a metaphorical
+    rendering of what is missing. This is NOT a negative statement — it
+    is a positive description of the territory that has not yet been
+    mapped. The metaphor must convey the specific KIND of unknown: is it
+    a missing link between known ideas? A structural impossibility that
+    blocks progress? An empirical question that no calculation can
+    resolve? Each kind of gap has a different metaphorical texture.
+
+  TABLE:
+  - Reproduce the table verbatim.
+  - Then provide: "READ IN PARALLEL:" followed by a metaphorical column
+    that gives each row's content an embodied interpretation. The
+    metaphorical column must itself be tabular so the structural
+    correspondence is visible.
+
+  EQUATION (inline or display):
+  - Every equation appears twice: once as LaTeX, once surrounded by
+    "SPEAKING THIS EQUATION:" followed by a natural-language or
+    metaphorical statement that is logically equivalent. The statement
+    must be precise enough that someone could reconstruct the equation
+    from it.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OUTPUT FORMAT — Use this exact structure:
+
+# 📐 ORIGINAL
+[verbatim mathematical content]
+
+---
+
+# 🌊 EPSTEMIC TRANSLATION
+[metaphorical layer, following the protocol above]
+
+---
+
+# 🔗 ALIGNMENT MAP
+[A brief note showing which elements of the metaphor map to which
+ elements of the formalism. This is the glossary of the translation:
+ "the river = the field Φ", "the dam = the boundary condition at Φ = ±1",
+ etc. This enables back-translation.]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FEW-SHOT EXAMPLES (to calibrate your output):
+
+EXAMPLE 1 — Original:
+"∇²Φ + aΦ − bΦ³ = 0 (the Euler-Lagrange equation for the double well)"
+
+Epistemic Translation:
+"The river of change, when you trace it across the landscape, bends
+toward the valleys (aΦ) and away from the peaks (the −bΦ³ term),
+and where these forces exactly cancel — that is where the system
+can rest. The equation is a map of every possible resting place,
+and the proof will walk among them."
+
+Alignment Map: ∇²Φ = curvature of the river's path; aΦ = the valley's
+gravitational pull; bΦ³ = the steepening walls that prevent the system
+from falling forever; the whole equation = the condition for stillness
+in a hilly landscape.
+
+---
+
+EXAMPLE 2 — Original:
+"Lemma: The spectrum of the Hessian at the retrieval state is
+λ₁ = β(1−m²)(1−3m²), λ_{i>1} = β(1−m²)(1−m²/2)"
+
+Epistemic Translation:
+"At the point where the network 'remembers,' the landscape has a
+special shape: one direction (the memory itself) is more tightly
+curved than all others. The first eigenvalue λ₁ is the steepness of
+the valley floor along the memory direction; if 1−3m² < 0, the
+valley has become a ridge — the memory is too strong, and the
+landscape buckles. The transverse eigenvalues λ_{i>1} are gentler:
+the landscape is wider in every other direction, like a canyon
+versus a crater. The parameter β (inverse temperature) sets the
+overall scale — colder systems have sharper features."
+
+Alignment Map: m² = how deep the memory has been carved; 1−3m² =
+whether the carving has gone too deep and inverted; β = the lens's
+zoom level; each eigenvalue = the curvature in one independent
+direction on the landscape.
+
+---
+
+EXAMPLE 3 — Original (Gap):
+"[GAP 1: The Number Five] We need a proof that the Genesis operator
+produces exactly 6 punctures on S² with 5 independent generators in H¹."
+
+The Shape of the Unknown:
+"This is the architect's missing blueprint. The framework has drawn
+five rooms in a building and claimed there cannot be six — but the
+proof that the sixth room is merely a hallway connecting the others
+has not been written. We know the tools (cohomology, Mayer-Vietoris),
+we know the materials (the specific anti-self encounters that create
+punctures), but the decisive argument — that all further recursive
+splits produce rooms already connected by these five corridors —
+has not been assembled. The gap is not a wall; it is a locked door
+for which we have the key shape but not the key itself."
+
+==================================================================
+
+NOW: Translate the following mathematical proof, section by section,
+applying all six core principles and the full protocol. Do not
+summarize. Do not skip steps. Every equation stays, every metaphor
+is genuine, and every gap is honestly rendered. Begin with the first
+section and proceed to the last, producing the dual-layer output
+for the complete document.
